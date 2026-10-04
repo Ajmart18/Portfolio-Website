@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="Styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+    />
+  </head>
+  <body>
+<!-- /------------------  HEADER  -------------------------------- -->
+    <header class="header">
+      <a href="#" class="logo"><span>Ajani Martin</span></a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#about">About</a>
+        </li>
+
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="#activities">Activities</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      
+
+      <!--<button class="visit-btn">Download Resume</button>-->
+      <a href="Documents/Ajani_Martin_Resume.pdf" download class="visit-btn">Download Resume</a>
+      <i class="fa-solid fa-bars" id="menue-icon"></i>
+    </header>
+
+<!-- /------------------  ABOUT -------------------------------- -->
+    <section id="about" class="about">
+      <div class="about-container">
+        <img src="images/HeadShots/GradHeadShot.png" alt="" />
+
+        <div class="info-box">
+          <div class="text">
+            <h3>Hi, I'm</h3>
+            <h1>Ajani Martin</h1>
+            <span>Mechanical Engineer</span>
+            <p>BS Mechanical Engineering: Lafayette College</p>
+            <p>Class of 2026</p>
+            <p>MS Mechanical Engineering: University of Maryland</p>
+            <p>Class of 2028</p>
+            <!--<h1>Passionate Mechanical Engineer aspiring to diversify and innovate solutions to global problems</h1>-->
+          </div>
+
+          <div class="btn-group">
+            <a href="Documents/Ajani_Martin_CV.pdf" download class="btn">Download CV</a>
+            <!--<a href="mailto:ajmart304@gmail.com" class="btn">Contact</a>-->
+            <!--<div class="btn">Contact</div>-->
+          </div>
+
+          <div class="socails">
+            <a href="https://www.linkedin.com/in/ajani-joseph-martin" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-square-linkedin"></i>
+            </a>
+            <!--<i class="fa-brands fa-square-linkedin"></i>-->
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- /------------------  EXPERIENCE  -------------------------------- -->
+    <section id="experience" class="experience">
+
+      <h2 class="section-title">Experience</h2>
+
+      <div class="expeirence-info">
+        <div class="grid">
+          <div class="grid-card">
+            <!--<i class="fa-solid fa-screwdriver-wrench"></i>-->
+            <span>Lead Researcher</span>
+            <h3>3 years </h3>
+            <p>Conducted experimental research in combustion and hypersonic propulsion by designing and manufacturing an aft wall fueled cavity flame holder for scramjet applications. Developed hands-on experience with the Lafayette College Hypersonics Laboratory, learning the proper operation and use of laboratory equipment and systems.  </p>
+          </div>
+
+          <div class="grid-card">
+            <!--<i class="fa-solid fa-water"></i>-->
+            <span>Computaional Fluid Dynamics (CFD)</span>
+            <h3>2 years</h3>
+            <p>Utilized ANSYS Fluent to simulate fluid flow and formation of boundary layers around rocket stability systems, as well as the laminar and turbulent flows around various objects through Computational Fluid Dynamics simulation.</p>
+          </div>
+
+          <div class="grid-card">
+            <!--<i class="fa-solid fa-clipboard-check"></i> -->
+            <span>Lafayette College Equipment Engineer and Technician</span>
+            <h3>1 year</h3>
+            <p>Supported the successful execution of performances at Lafayette College’s Williams Center for the Arts by maintaining and servicing technical equipment to ensure reliable operation throughout events.</p>
+          </div>
+
+          <div class="grid-card">
+           <!-- <i class="fa-solid fa-book"></i> -->
+            <span>Lafayette College Admisions Ambassador</span>
+            <h3>1 year</h3>
+            <p>Lead specialized tours of the Engineering Department, showcasing department resources.	Communicated with prospective and current students to support their transition into Lafayette College.</p>
+          </div>
+
+
+        </div>
+        <img src="images/HeadShots/GradHeadShot.png" alt="" />
+      </div>
+    </section>
+
+<!-- /------------------  PROJECTS  -------------------------------- -->
+    <section id="projects" class="projects">
+      <h2 class="section-title">Recent Projects</h2>
+
+      <div class="projects-grid">
+
+        <div class="projects-card">
+          <img src="images/Projects/CavityFlameHolder.jpg" alt="">
+          <h3>Thesis: Aft Wall Injection Effects On Combustion and Flame Stabalization</h3>
+          <p>Investigated the effects of varying combustible gas injection locations within supersonic airflow using a cavity flame holder, a key component of a supersonic combustion ramjet (scramjet) engine. Analyzed how injection location and pressure influence fuel-air mixing, flame stability, and combustion propagation under high-speed flow conditions. Conducted experimental testing in the Lafayette College Hypersonics Laboratory using an expansion tube to simulate supersonic flow conditions through highly pressurized gases.</p>
+          <div class="btn-group">
+            <a href="Documents/Thesis_Document.pdf" download class="btn">Thesis Paper Download</a>
+            <!--<div class="btn">Thesis Paper Download</div>-->
+            <!-- <div class="btn">GitHub Repo</div> -->
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img src="images/Projects/CFD.png" alt="">
+          <h3>Research: CFD Analysis</h3>
+          <p>Analyzed fluid flow over rocket stability systems using computational fluid dynamics (CFD) to evaluate aerodynamic behavior and performance. Investigated laminar and turbulent flow around common geometries, including spheres, cylinders, and airfoils, while examining velocity profiles, pressure distributions, drag, and flow separation. Applied fluid mechanics principles to interpret simulation results and assess aerodynamic characteristics across varying flow conditions.</p>
+          <div class="btn-group">
+            <!--<div class="btn">Live Demo</div>-->
+            <!-- <div class="btn">GitHub Repo</div> -->
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img src="images/Projects/Arduino.png" alt="">
+          <h3>Academic Project: Arduino Controlled Autonomous Car</h3>
+          <p>Developed and programmed an autonomous Pololu Zumo 32U4 robot using Arduino, implementing sensor based control algorithms and feedback loops to independently navigate an unknown course, detect and avoid obstacles, and complete the course within a specified time limit.</p>
+          <div class="btn-group">
+            <!--<div class="btn">Live Demo</div>-->
+            <!--<div class="btn">GitHub Repo</div>-->
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img src="images/Projects/Insrument.jpg" alt="">
+          <h3>Personal Project: Instrument Technology & Electron</h3>
+          <p>Designed custom wiring diagrams to modify the electrical signal paths of guitars and basses, enabling personalized tone configurations tailored to individual playing styles. Applied knowledge of musical electronics and circuit design to troubleshoot, diagnose, and repair faulty instrument electronics.</p>
+          <div class="btn-group">
+            <!--<div class="btn">Live Demo</div>-->
+            <!--<div class="btn">GitHub Repo</div>-->
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+
+    <!--/------------------  ACTIVITEIS  -------------------------------- -->
+    <section id="activities" class="activities">
+      <h2 class="section-title">Activities</h2>
+
+      <div class="projects-grid">
+
+        <div class="projects-card">
+          <img src="images/Activities/NSBE.png" alt="">
+          <h3>NSBE: National Society of Black Engineers</h3>
+          <p>Engaged in professional development, networking, and community building initiatives through workshops and organizational events. Collaborated with engineering students and industry professionals to strengthen career readiness skills, expand professional networks, and foster a supportive engineering community.</p>
+          <div class="btn-group">
+            <!--<div class="btn">Thesis Paper Download</div>-->
+            <!-- <div class="btn">GitHub Repo</div> -->
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img src="images/Activities/ABC.png" alt="">
+          <h3>ABC: Association of Black Collegians </h3>
+          <p>Served as Secretary and Treasurer of the Association of Black Collegians (ABC), helping foster an inclusive and supportive environment where students of color could connect, build community, and engage with one another. Managed the organization’s finances and coordinated funding for organizational events, ensuring resources were allocated effectively to maximize the quality and impact of events for members.</p>
+          <div class="btn-group">
+            <!--<div class="btn">Live Demo</div>-->
+            <!-- <div class="btn">GitHub Repo</div> -->
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img src="images/Activities/LIMS.png" alt="">
+          <h3>LIMS: Lafayette Interdisciplinary Music Society</h3>
+          <p>Served as President of the Lafayette Interdisciplinary Music Society (LIMS), a student organization dedicated to fostering an inclusive community for students with a passion for music, regardless of race, ethnicity, gender, or religion. Led the organization in hosting fundraisers, charity events, and community initiatives while collaborating with local businesses and organizations throughout Easton, PA. These efforts helped connect Lafayette students with the surrounding community while raising awareness and support for local charities and businesses.</p>
+          <div class="btn-group">
+            <!--<div class="btn">Live Demo</div>-->
+            <!--<div class="btn">GitHub Repo</div>-->
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img src="images/Activities/PlayingBass.png" alt="">
+          <h3>Muscian</h3>
+          <p>Developed a passion for writing and performing music while in school. Performed as a member of a band that wrote and played original music at a variety of campus and community events throughout Easton, PA, including fundraisers, charity events, school productions, and recreational events. These experiences allowed me to combine my creativity and love for music with opportunities to connect with and perform for diverse audiences.</p>
+          <div class="btn-group">
+            <!--<div class="btn">Live Demo</div>-->
+            <!--<div class="btn">GitHub Repo</div>-->
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+
+
+<!--/------------------  CONTACT  -------------------------------- -->
+    <section class="contact" id="contact">
+
+      <div class="input-box">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="input message-box">
+          <textarea 
+            id="visitor-message"
+            placeholder="Write your message..."
+            required
+          ></textarea>
+        </div>
+
+        <button 
+          type="button" 
+          class="btn" 
+          onclick="sendEmail()"
+        >
+          Submit
+        </button>
+
+      </div>
+
+    </section>
+
+
+
+
+
+
+ <!--/------------------  FOOTER  -------------------------------- -->
+    <footer>
+      <ul>
+
+        <li>
+          <a href="#about">About</a>
+        </li>
+
+         <li>
+          <a href="#experience">Experience</a>
+        </li>
+
+         <li>
+          <a href="#projects">Proects</a>
+        </li>
+
+         <li>
+          <a href="#Activities">Activities</a>
+        </li>
+
+         <li>
+          <a href="#Contacts">Contacts</a>
+        </li>
+
+      </ul>
+
+      <p class="copyright">© All Rights Reserved | Ajani Martin</p>
+    </footer>
+    <script src="apps.js"></script>
+  </body>
+</html>
